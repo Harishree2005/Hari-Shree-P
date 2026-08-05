@@ -2,8 +2,8 @@
 # Bank Marketing Dataset Analysis - Phase 1
 
 ## Student Details
-- Name: Your Name
-- Register Number: Your Register Number
+- Name: Hari Shree P
+- Register Number: 23BDS0197
 - Course: B.Tech CSE (Data Science)
 
 ## Project Description
