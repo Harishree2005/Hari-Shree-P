@@ -1,136 +1,60 @@
-# Hari-Shree-P
+#Hari Shree P
+#Reg No.:23BDS0197
 
 # Bank Marketing Dataset Analysis
 
-## Student Details
-- Name: Hari Shree P
-- Register Number: 23BDS0197
-- Course: B.Tech CSE (Data Science)
+## Project Overview
 
-## Project Description
-This project analyzes the Bank Marketing dataset using Python and Google Colab. The project is completed in multiple phases using the same GitHub repository.
+This project analyzes a bank marketing dataset to understand customer characteristics, explore relationships among variables, discover customer segments, and predict whether a customer will subscribe to a term deposit.
 
----
+## Phase 1: Exploratory Data Analysis (EDA)
 
-# Phase 1 - Exploratory Data Analysis
+- Dataset loading and inspection
+- Descriptive statistical analysis
+- Missing-value handling and data cleaning
+- Data transformation and preprocessing
+- Univariate, bivariate, and multivariate analysis
+- Data visualization and interpretation
 
-## Tasks Completed
+## Phase 2: Statistical Analysis and Clustering
 
-- Dataset Loading
-- Basic Statistical Analysis
-- Missing Value Handling
-- Data Cleaning
-- Data Transformation
-- Univariate Analysis
-- Bivariate Analysis
-- Multivariate Analysis
+- One-dimensional, two-dimensional, and three-dimensional statistical analysis
+- K-Means clustering
+- Hierarchical clustering
+- Dendrogram visualization
+- Cluster profiling and comparison
+- Principal Component Analysis (PCA)
+- Explained variance analysis and PCA visualization
 
-## Phase 1 Visualizations
+## Phase 3: Classification Using Logistic Regression
 
-### Univariate Analysis
-- Histogram
-- Count Plot
-- Box Plot
+- Target variable: customer term-deposit subscription (`yes` or `no`)
+- Feature and target separation
+- 80:20 training-testing split
+- Numerical feature scaling
+- Categorical feature encoding
+- Logistic Regression model training
+- Model evaluation using accuracy, precision, recall, F1-score, and ROC-AUC
+- Confusion matrix and ROC curve visualization
 
-### Bivariate Analysis
-- Scatter Plot
-- Box Plot
-- Grouped Bar Chart
-
-### Multivariate Analysis
-- Correlation Heatmap
-- Pair Plot
-- 3D Scatter Plot
-
----
-
-# Phase 2 - Statistical Analysis and Clustering
-
-## 1D Statistical Analysis
-
-- Mean
-- Median
-- Mode
-- Minimum and Maximum
-- Five-number Summary
-- Variance
-- Standard Deviation
-- Skewness
-- Kurtosis
-- Normality Testing
-- Distribution Analysis
-- Outlier Analysis
-
-## 2D Statistical Analysis
-
-- Pearson Correlation
-- Spearman Correlation
-- Correlation Heatmaps
-- Scatter Plot
-- Regression Plot
-- Independent Samples t-test
-- Chi-Square Test
-- One-Way ANOVA
-
-## 3D Statistical Analysis
-
-- 3D Scatter Plot
-- Multiple Linear Regression
-- Actual vs Predicted Analysis
-- Residual Analysis
-- Three-Variable Correlation Analysis
-
-## K-Means Clustering
-
-- Feature Selection
-- Data Standardization
-- Elbow Method
-- Silhouette Score
-- K-Means Clustering
-- Cluster Size Analysis
-- Cluster Profiling
-- PCA Visualization
-
-## Hierarchical Clustering
-
-- Agglomerative Clustering
-- Ward Linkage
-- Dendrogram
-- Cluster Size Analysis
-- Cluster Profiling
-- PCA Visualization
-- Silhouette Score
-
-## Clustering Comparison
-
-- K-Means vs Hierarchical Clustering
-- Silhouette Score Comparison
-
----
-
-# Files
-
-- `README.md` - Project documentation
-- `bank_marketing_test.csv` - Bank Marketing dataset
-- `Phase1_EDA_Bank_Marketing.ipynb` - Phase 1 and Phase 2 analysis
-
----
-
-# Technologies Used
+## Technologies Used
 
 - Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
+- Pandas and NumPy
+- Matplotlib and Seaborn
 - Scikit-learn
+- Google Colab
+- GitHub
 
----
+## Project Objective
 
-# Project Status
+The objective is to use statistical analysis, clustering, dimensionality reduction, and classification to gain insights into bank marketing data and assess the potential to predict customer subscription outcomes.
 
-- Phase 1 - Completed
-- Phase 2 - Completed
-- Phase 3 - Pending
+## Repository Contents
+
+- `Phase1_EDA_Bank_Marketing.ipynb` — notebook containing the analyses from Phases 1, 2, and 3
+- `bank_marketing_test.csv` — dataset used for the analysis
+
+## Conclusion
+
+This project combines exploratory analysis, statistical methods, unsupervised learning, PCA, and supervised classification to examine customer behavior in bank marketing. Model performance and analytical findings should be interpreted using the actual outputs generated in the notebook.
